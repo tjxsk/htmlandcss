@@ -1,0 +1,57 @@
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.e8yqFS4mek1Oh6aGljJAHAHaEo?w=302&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+}
+/* styling id */
+#FirstName{
+    background-color: rgb(220, 220, 220);
+}
+
+#paragraph1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#paragraph2{
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#paragraph3{
+    background-color: black;
+    color: brown;
+}
+
+/* styling Classs */
+
+.list0{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px dashed;
+}
+
+.list2{
+    list-style-type: square;
+}
+
+/* Table */
+
+table{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: 10% 50% 10% 50%;
+}
+
+table th{
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid;
+}
+
+table tr{
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+table td{
+    border-right: 1px dotted;
+    padding: 3%;
+}
+
