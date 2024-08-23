@@ -1,0 +1,28 @@
+@mixin CommonStyle($color) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: $color
+}
+
+header {
+    nav {
+        a {
+            @include  CommonStyle(green);
+        }
+    }
+}
+
+
+$primary:red;
+$font:  monospace;
+
+
+.grp2 {
+    h1 {
+        color: $primary;
+    }
+    p {
+        font-family: $font;
+    }
+}
+

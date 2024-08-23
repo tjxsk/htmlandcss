@@ -1,0 +1,29 @@
+$bgimg: 'https://th.bing.com/th/id/OIP.e8yqFS4mek1Oh6aGljJAHAHaEo?w=302&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7';
+$fontgrp1: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$primary:red;
+$fontgrp2:  monospace;
+$bgcolor: white;
+$font2: 'Times New Roman', Times, serif;
+$cursivefont: cursive;
+
+
+body {
+    background-image: url($bgimg);
+    background-size: cover;
+}
+
+#paragraph1 {
+    font-family: $font2;
+    color: $bgcolor;
+}
+
+#paragraph2{
+    font-family: $cursivefont;
+    font-weight: 300;
+}
+
+.grp1 {
+    font-family: $fontgrp1;
+    border: 1px dashed;
+}
+    

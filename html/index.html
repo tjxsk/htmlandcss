@@ -8,8 +8,8 @@
 
 <!-- External Styling -->
 
-<link rel="stylesheet" href="/Full Stack/css/External.css">
-
+<!-- <link rel="stylesheet" href="/css/External.css"> -->
+<link rel="stylesheet" href="/sass/External.css">
 <!-- internal Styling -->   
 
     <style>                                                              
@@ -24,8 +24,16 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a class="home" href="">HOME</a>
+            <a class="abtme" href="">ABOUT ME</a>
+            <a class="project" href="">PROJECTS</a>
+        </nav>
+    </header>
     <!-- Heading Tags -->
-    <h1 style="color: blue; text-align: center;">Welcome to HTML</h1>      <!-- inline styling -->
+<div class="grp2">
+    <h1 style="text-align: center;">Welcome to HTML</h1>      <!-- inline styling -->
     <h2 style="
         font-family: monospace; 
         font-weight: 100; 
@@ -37,6 +45,8 @@
     <h4>Welcome to HTML</h4>
     <h5>Welcome to HTML</h5>
     <h6>Welcome to HTML</h6>
+</div>
+<div class="grp2">
     <p id="paragraph1">Generating random paragraphs can be an <b>excellent</b> way for <u>writers</u> to get their creative flow going at the
         beginning of the day. The writer has no idea what topic the random <i>paragraph</i> will be about when it appears. This
         forces the writer to use creativity to complete one of three common writing challenges. The writer can use the
@@ -44,7 +54,7 @@
         somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph
         in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to
         incorporate the paragraph into their writing.</p>
-
+</div>
     <p id="paragraph2">Generating random paragraphs can be an <b>excellent</b> way for <u>writers</u> to get their creative flow going at the
         beginning of the day. The writer has no idea what topic the random <i>paragraph</i> will be about when it appears. This
         forces the writer to use creativity to complete one of three common writing challenges. The writer can use the
@@ -61,8 +71,8 @@
         in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to
         incorporate the paragraph into their writing.</p>
 
-    <!-- List -->
-<div class="list0">          <!-- Styling Class-->
+<!-- List -->
+<div class="grp1">          <!-- Styling Class-->
     <ol type="a">
         <li>Apple</li>
         <li>Orange</li>
@@ -80,11 +90,13 @@
 
     <br>
     <!-- Images -->
-
+<div class="grp3">
     <img id="image1" src="https://th.bing.com/th?id=OIP.tZq4FbHI-2VuBSGkHjfyfAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="sasi kokk">
-    <img src="/Full Stack/img/download.jpeg" alt="spiderman: work from home">
+    <p>sample text</p>
+</div>
+    <img src="/img/download.jpeg" alt="spiderman: work from home">
 
-    <!-- Anchor tags -->
+    <!-- Anchor tags -->   
     <br><br>
     <a href="https://www.google.com/" target="_blank">GOOGLE</a>
 
@@ -128,6 +140,25 @@
     </tr>
 
 </table>
+<br><br><br><br><br><br>
+
+<!-- flex box -->
+
+<div class="parent">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+    <div class="child">4</div>
+    <div class="child">5</div>
+    <div class="child">6</div>
+    <div class="child">7</div>
+    <div class="child">8</div>
+    <div class="child">9</div>
+    <div class="child">10</div>
+    <div class="child">11</div>
+    <div class="child">12</div>
+    </div>
+
 </body>
 
 </html>
